@@ -1,0 +1,141 @@
+.kyruus-custom .ky-label-m {
+    color: #333333;
+    font-family: 'Frutiger', 'Helvetica', 'Arial', 'Nimbus Sans L', sans-serif;
+}
+
+.kyruus-custom a,
+.kyruus-custom a:visited,
+.kyruus-custom .nav li:hover a,
+.kyruus-custom .nav li:hover a:visited,
+.kyruus-custom .nav li.active a,
+.kyruus-custom .nav li.active a:visited {
+    color: #005030;
+}
+
+.kyruus-custom .nav li a:visited {
+    color: #748496;
+}
+
+.kyruus-custom .has-provider-video,
+.kyruus-custom .nav li.active a::after {
+    background: #005030;
+}
+
+.kyruus-custom .filter-group li:hover,
+.kyruus-custom .filter-group button.button.btn-anchor,
+.kyruus-custom button.button.btn-anchor .icon-print {
+    color: #005030 !important;
+}
+
+.kyruus-custom #top-specialties {
+    background: #f5f5f5;
+}
+
+.kyruus-custom #top-specialties > h3 {
+    text-align: center;
+}
+
+.kyruus-custom #top-specialties > h3 span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.kyruus-custom #top-specialties > div.row {
+    line-height: 30px;
+}
+
+.kyruus-custom .ky-powered-by-link,
+.kyruus-custom .ky-legal,
+.kyruus-custom .ky-legal a,
+.kyruus-custom .ky-legal a:visited {
+    color: #dde8f4 !important;
+}
+
+.kyruus-custom .kyruus-config-secondary-color.button span,
+.kyruus-custom .kyruus-config-quaternary-color.button span {
+    color: #ffffff;
+}
+
+.kyruus-custom .kyruus-config-primary-color.button.btn-link,
+.kyruus-custom .kyruus-config-primary-color.button.btn-link:hover,
+.kyruus-custom .kyruus-config-primary-color.button.btn-positive,
+.kyruus-custom .kyruus-config-primary-color.button.btn-positive:hover,
+.kyruus-custom .kyruus-config-primary-color.ky-button.btn-link,
+.kyruus-custom .kyruus-config-primary-color.ky-button.btn-link:hover,
+.kyruus-custom .kyruus-config-primary-color.ky-button.ky-btn-positive,
+.kyruus-custom .kyruus-config-primary-color.ky-button.ky-btn-positive:hover {
+    background-color: #f47321;
+    border-color: #f47321;
+    background-image: none;
+    text-shadow: none;
+}
+
+.kyruus-custom .kyruus-config-secondary-color,
+.kyruus-custom .kyruus-config-secondary-color.active:after {
+    background-color: #f47321;
+}
+
+.kyruus-custom .kyruus-config-secondary-color.button.btn-link,
+.kyruus-custom .kyruus-config-secondary-color.button.btn-link:hover,
+.kyruus-custom .kyruus-config-secondary-color.button.btn-positive,
+.kyruus-custom .kyruus-config-secondary-color.button.btn-positive:hover,
+.kyruus-custom .kyruus-config-secondary-color.ky-button.btn-link,
+.kyruus-custom .kyruus-config-secondary-color.ky-button.btn-link:hover,
+.kyruus-custom .kyruus-config-secondary-color.ky-button.ky-btn-positive,
+.kyruus-custom .kyruus-config-secondary-color.ky-button.ky-btn-positive:hover {
+    background-color: #f47321;
+    border-color: #f47321;
+    background-image: none;
+    text-shadow: none;
+}
+
+.kyruus-custom .kyruus-config-secondary-color.button.btn-link:hover,
+.kyruus-custom .kyruus-config-secondary-color.button.btn-positive:hover,
+.kyruus-custom .kyruus-config-secondary-color.ky-button.btn-link:hover,
+.kyruus-custom .kyruus-config-secondary-color.ky-button.ky-btn-positive:hover,
+.kyruus-custom .kyruus-config-secondary-color.button.btn-link:focus,
+.kyruus-custom .kyruus-config-secondary-color.button.btn-positive:focus,
+.kyruus-custom .kyruus-config-secondary-color.ky-button.btn-link:focus,
+.kyruus-custom .kyruus-config-secondary-color.ky-button.ky-btn-positive:focus {
+    background-color: #d75a0b;
+}
+
+.kyruus-custom .kyruus-config-secondary-color.button.btn-link.disabled,
+.kyruus-custom .kyruus-config-secondary-color.ky-button.btn-link.disabled {
+    background-color: #f6f7f8;
+}
+
+.kyruus-custom .disclaimer.kyruus-config-disclaimer,
+.kyruus-custom .disclaimer.kyruus-config-disclaimer:hover {
+    border-left: 8px solid #005030;
+}
+
+.kyruus-custom .kyruus-config-tertiary-color,
+.kyruus-custom .label.kyruus-config-tertiary-color {
+    background-color: #747474;
+}
+
+.kyruus-custom .kyruus-config-quaternary-color.button.btn-link,
+.kyruus-custom .kyruus-config-quaternary-color.button.btn-positive,
+.kyruus-custom .kyruus-config-quaternary-color.ky-button.btn-link,
+.kyruus-custom .kyruus-config-quaternary-color.ky-button.ky-btn-positive {
+    background-color: #f47321;
+    border-color: #f47321;
+    background-image: none;
+    text-shadow: none;
+}
+
+.kyruus-custom .kyruus-config-quaternary-color.button.btn-link:hover,
+.kyruus-custom .kyruus-config-quaternary-color.button.btn-positive:hover,
+.kyruus-custom .kyruus-config-quaternary-color.ky-button.btn-link:hover,
+.kyruus-custom .kyruus-config-quaternary-color.ky-button.ky-btn-positive:hover {
+    background-color: #d75a0b;
+}
+
+.ky-search-form .ky-icon-search.icon-search.ky-fs-l {
+    font-size: 18px !important;
+    top: -2px !important;
+}
+.ky-search-form .ky-icon-search.icon-search.ky-fs-l:before {
+    content: "" !important;
+}
