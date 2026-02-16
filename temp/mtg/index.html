@@ -1,0 +1,110 @@
+<!doctype>
+<html>
+<head>
+<style>
+	html,
+	body {
+		height:100%;
+		width:100%;
+	}
+	body {
+		font-family:Helvetica, Arial, sans-serif;
+		margin:0;
+		padding:0;
+	}
+	.wrapper {
+		margin:0 auto;
+		max-width:1280px;
+		overflow: auto;
+	}
+	header,
+	.img-wrapper {
+		float:left;
+		margin:2.5%;
+		width:45%;
+	}
+	.img-wrapper {
+		background-size:contain;
+		background-repeat:no-repeat;
+		margin-bottom:5%;
+		padding-top:34%;
+	}
+	.img-wrapper.is-zoomed {
+		background-size: inherit;
+	}
+	@media screen and (max-width:600px){
+		header,
+		.img-wrapper {
+			float:none;
+			margin:2.5%;
+			width:95%;
+		}
+		.img-wrapper {
+			padding-top:68%;
+		}
+	}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<header>
+	<h1>Free MTG Cards</h1>
+	<p>Collection includes, but not limited too:</p>
+	<ul>
+		<li>a few Legend/Arabian/Dark</li>
+		<li>Revised/4th/5th edition</li>
+		<li>Chronicles</li>
+		<li>Ice Age / Alliance</li>
+		<li>Mirage / Vision</li>
+		<li>Weatherlight</li>
+	</ul>
+	<p>Hover over the image to zoom</p>
+	<p>Scroll down to load more images</p>
+</header>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+
+	var img_count = 11, // number of images
+		num_loaded = 0,
+		start_num = 4948,
+		$wrapper = $('.wrapper');
+	
+	function load_images(){
+		try{console.log('loaded',num_loaded,'img',start_num);}catch(e){}
+		if( num_loaded < img_count ){
+			if(start_num == 4949 || start_num == 4952 || start_num == 4954){start_num++;}
+			$wrapper.append('<div class="img-wrapper" style="background-image:url(IMG_' + start_num + '.JPG)"></div>');
+			start_num++;
+			num_loaded++;
+		}
+	}
+	while( num_loaded < 5 ) {
+		load_images();
+	}
+	$(window).scroll(function() {
+		if( $(window).scrollTop() + $(window).height() == $(document).height() ) {
+			load_images();
+			load_images();
+		}	
+	});
+
+	//hovering the product image shows the zoomed image
+	$('.wrapper').on('mouseenter','.img-wrapper',function(){
+		$(this).addClass('is-zoomed');
+		$(this).bind('mousemove',function(e){ 
+			var height = $(this).outerHeight(),
+				width = $(this).width(),
+				offset = $(this).offset();
+				percentX = (e.pageX - offset.left) / width * 100,
+				percentY = (e.pageY - offset.top) / height * 100,
+				position = percentX + "% " + percentY +"%";
+			$(this).css("background-position",position);
+		}); 
+	});
+	$('.wrapper').on('mouseleave','.img-wrapper',function(){
+		$(this).unbind('mousemove').removeClass('is-zoomed').css('background-position','center');
+	});
+</script>
+</body>
+</html>
