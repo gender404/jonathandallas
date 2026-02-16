@@ -1,0 +1,673 @@
+/* This file is generated.  DO NOT EDIT. */ 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.brikwars-app {
+  width: 3200px;
+  height: 3200px;
+  box-sizing: border-box;
+  padding: 100px;
+  background-color: #000;
+}
+.brikwars-app * {
+  box-sizing: border-box;
+}
+
+.brikwars-app__map {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[10];
+  grid-template-columns: repeat(10, 1fr);
+  -ms-grid-rows: (1fr)[10];
+  grid-template-rows: repeat(10, 1fr);
+  width: 3000px;
+  height: 3000px;
+}
+
+.brikwars-app__map > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.brikwars-app__map > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}
+
+.brikwars-app__map > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.brikwars-app__map > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+}
+
+.brikwars-app__map > *:nth-child(5) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+
+.brikwars-app__map > *:nth-child(6) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 6;
+}
+
+.brikwars-app__map > *:nth-child(7) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+
+.brikwars-app__map > *:nth-child(8) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 8;
+}
+
+.brikwars-app__map > *:nth-child(9) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 9;
+}
+
+.brikwars-app__map > *:nth-child(10) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 10;
+}
+
+.brikwars-app__map > *:nth-child(11) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+
+.brikwars-app__map > *:nth-child(12) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+}
+
+.brikwars-app__map > *:nth-child(13) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+
+.brikwars-app__map > *:nth-child(14) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+}
+
+.brikwars-app__map > *:nth-child(15) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 5;
+}
+
+.brikwars-app__map > *:nth-child(16) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 6;
+}
+
+.brikwars-app__map > *:nth-child(17) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 7;
+}
+
+.brikwars-app__map > *:nth-child(18) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 8;
+}
+
+.brikwars-app__map > *:nth-child(19) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 9;
+}
+
+.brikwars-app__map > *:nth-child(20) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 10;
+}
+
+.brikwars-app__map > *:nth-child(21) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.brikwars-app__map > *:nth-child(22) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+}
+
+.brikwars-app__map > *:nth-child(23) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+
+.brikwars-app__map > *:nth-child(24) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+}
+
+.brikwars-app__map > *:nth-child(25) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+
+.brikwars-app__map > *:nth-child(26) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 6;
+}
+
+.brikwars-app__map > *:nth-child(27) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 7;
+}
+
+.brikwars-app__map > *:nth-child(28) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 8;
+}
+
+.brikwars-app__map > *:nth-child(29) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 9;
+}
+
+.brikwars-app__map > *:nth-child(30) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 10;
+}
+
+.brikwars-app__map > *:nth-child(31) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+}
+
+.brikwars-app__map > *:nth-child(32) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+}
+
+.brikwars-app__map > *:nth-child(33) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+}
+
+.brikwars-app__map > *:nth-child(34) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 4;
+}
+
+.brikwars-app__map > *:nth-child(35) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 5;
+}
+
+.brikwars-app__map > *:nth-child(36) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 6;
+}
+
+.brikwars-app__map > *:nth-child(37) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 7;
+}
+
+.brikwars-app__map > *:nth-child(38) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 8;
+}
+
+.brikwars-app__map > *:nth-child(39) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 9;
+}
+
+.brikwars-app__map > *:nth-child(40) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 10;
+}
+
+.brikwars-app__map > *:nth-child(41) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+
+.brikwars-app__map > *:nth-child(42) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+}
+
+.brikwars-app__map > *:nth-child(43) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+
+.brikwars-app__map > *:nth-child(44) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+}
+
+.brikwars-app__map > *:nth-child(45) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
+}
+
+.brikwars-app__map > *:nth-child(46) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 6;
+}
+
+.brikwars-app__map > *:nth-child(47) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 7;
+}
+
+.brikwars-app__map > *:nth-child(48) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 8;
+}
+
+.brikwars-app__map > *:nth-child(49) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 9;
+}
+
+.brikwars-app__map > *:nth-child(50) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 10;
+}
+
+.brikwars-app__map > *:nth-child(51) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+}
+
+.brikwars-app__map > *:nth-child(52) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+}
+
+.brikwars-app__map > *:nth-child(53) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 3;
+}
+
+.brikwars-app__map > *:nth-child(54) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 4;
+}
+
+.brikwars-app__map > *:nth-child(55) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 5;
+}
+
+.brikwars-app__map > *:nth-child(56) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 6;
+}
+
+.brikwars-app__map > *:nth-child(57) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 7;
+}
+
+.brikwars-app__map > *:nth-child(58) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 8;
+}
+
+.brikwars-app__map > *:nth-child(59) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 9;
+}
+
+.brikwars-app__map > *:nth-child(60) {
+  -ms-grid-row: 6;
+  -ms-grid-column: 10;
+}
+
+.brikwars-app__map > *:nth-child(61) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+}
+
+.brikwars-app__map > *:nth-child(62) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 2;
+}
+
+.brikwars-app__map > *:nth-child(63) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 3;
+}
+
+.brikwars-app__map > *:nth-child(64) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 4;
+}
+
+.brikwars-app__map > *:nth-child(65) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 5;
+}
+
+.brikwars-app__map > *:nth-child(66) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 6;
+}
+
+.brikwars-app__map > *:nth-child(67) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 7;
+}
+
+.brikwars-app__map > *:nth-child(68) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 8;
+}
+
+.brikwars-app__map > *:nth-child(69) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 9;
+}
+
+.brikwars-app__map > *:nth-child(70) {
+  -ms-grid-row: 7;
+  -ms-grid-column: 10;
+}
+
+.brikwars-app__map > *:nth-child(71) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 1;
+}
+
+.brikwars-app__map > *:nth-child(72) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 2;
+}
+
+.brikwars-app__map > *:nth-child(73) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 3;
+}
+
+.brikwars-app__map > *:nth-child(74) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 4;
+}
+
+.brikwars-app__map > *:nth-child(75) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 5;
+}
+
+.brikwars-app__map > *:nth-child(76) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 6;
+}
+
+.brikwars-app__map > *:nth-child(77) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 7;
+}
+
+.brikwars-app__map > *:nth-child(78) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 8;
+}
+
+.brikwars-app__map > *:nth-child(79) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 9;
+}
+
+.brikwars-app__map > *:nth-child(80) {
+  -ms-grid-row: 8;
+  -ms-grid-column: 10;
+}
+
+.brikwars-app__map > *:nth-child(81) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 1;
+}
+
+.brikwars-app__map > *:nth-child(82) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 2;
+}
+
+.brikwars-app__map > *:nth-child(83) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 3;
+}
+
+.brikwars-app__map > *:nth-child(84) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 4;
+}
+
+.brikwars-app__map > *:nth-child(85) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 5;
+}
+
+.brikwars-app__map > *:nth-child(86) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 6;
+}
+
+.brikwars-app__map > *:nth-child(87) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 7;
+}
+
+.brikwars-app__map > *:nth-child(88) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 8;
+}
+
+.brikwars-app__map > *:nth-child(89) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 9;
+}
+
+.brikwars-app__map > *:nth-child(90) {
+  -ms-grid-row: 9;
+  -ms-grid-column: 10;
+}
+
+.brikwars-app__map > *:nth-child(91) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 1;
+}
+
+.brikwars-app__map > *:nth-child(92) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 2;
+}
+
+.brikwars-app__map > *:nth-child(93) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 3;
+}
+
+.brikwars-app__map > *:nth-child(94) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 4;
+}
+
+.brikwars-app__map > *:nth-child(95) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 5;
+}
+
+.brikwars-app__map > *:nth-child(96) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 6;
+}
+
+.brikwars-app__map > *:nth-child(97) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 7;
+}
+
+.brikwars-app__map > *:nth-child(98) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 8;
+}
+
+.brikwars-app__map > *:nth-child(99) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 9;
+}
+
+.brikwars-app__map > *:nth-child(100) {
+  -ms-grid-row: 10;
+  -ms-grid-column: 10;
+}
+
+.brikwars-app__module {
+  --path-color: #eee;
+  --background-color: #a0bcac;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+          grid-template-areas: ". up ." "left players right" ". down .";
+  -ms-grid-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  -ms-grid-rows: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  font-size: 1em;
+  background-color: var(--background-color);
+  background-image: linear-gradient(0deg, var(--path-color), var(--path-color)), linear-gradient(0deg, var(--path-color), var(--path-color));
+  background-repeat: no-repeat;
+  background-size: 0 0;
+  box-shadow: 0 0 0 2px purple;
+}
+
+.brikwars-app__module--mine {
+  --path-color: #e4cd93;
+  --background-color: #d09168;
+}
+
+.brikwars-app__module--secure {
+  --path-color: #444;
+  --background-color: #aaa;
+  color: #fff;
+}
+
+.brikwars-app__module--selected {
+  z-index: 10;
+}
+
+.brikwars-app__module--room {
+  background-size: 100% 100%;
+}
+
+.brikwars-app__module--corridorT {
+  background-size: 100% 50%, 50% 25%;
+  background-position: 0 50%, 50% 100%;
+}
+.brikwars-app__module--corridorT .brikwars-app__move-button--up {
+  display: none;
+}
+
+.brikwars-app__module--corridorT-left {
+  background-size: 50% 100%, 25% 50%;
+  background-position: 50% 0, 0 50%;
+}
+.brikwars-app__module--corridorT-left .brikwars-app__move-button--right {
+  display: none;
+}
+
+.brikwars-app__module--corridorT-right {
+  background-size: 50% 100%, 25% 50%;
+  background-position: 50% 0, 100% 50%;
+}
+.brikwars-app__module--corridorT-right .brikwars-app__move-button--left {
+  display: none;
+}
+
+.brikwars-app__module--corridorT-up {
+  background-size: 100% 50%, 50% 25%;
+  background-position: 0 50%, 50% 0%;
+}
+.brikwars-app__module--corridorT-up .brikwars-app__move-button--down {
+  display: none;
+}
+
+.brikwars-app__module--straight {
+  background-size: 100% 50%, 10% 10%;
+  background-position: 0 50%, 50% 8%;
+}
+.brikwars-app__module--straight .brikwars-app__move-button--up,
+.brikwars-app__module--straight .brikwars-app__move-button--down {
+  display: none;
+}
+
+.brikwars-app__module--straight-90 {
+  background-size: 50% 100%, 10% 10%;
+  background-position: 50% 0, 8% 50%;
+}
+.brikwars-app__module--straight-90 .brikwars-app__move-button--right,
+.brikwars-app__module--straight-90 .brikwars-app__move-button--left {
+  display: none;
+}
+
+.brikwars-app__mod-label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.brikwars-app__players {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: players;
+}
+
+.brikwars-app__player {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  color: #000;
+  color: var(--text-color, #000);
+  border: 1px solid currentColor;
+  border-radius: 100%;
+  background-color: var(--background-color);
+}
+
+.brikwars-app__move-button {
+  border: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+.brikwars-app__move-button[disabled] {
+  background: transparent;
+}
+
+.brikwars-app__move-button--up {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: up;
+}
+
+.brikwars-app__move-button--right {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: right;
+}
+
+.brikwars-app__move-button--down {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: down;
+}
+
+.brikwars-app__move-button--left {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: left;
+}
+/*# sourceMappingURL=brikwars-app-generated.css.map */

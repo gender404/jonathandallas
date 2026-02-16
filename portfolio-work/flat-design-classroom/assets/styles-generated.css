@@ -129,8 +129,7 @@ body {
     110px 30px,
     100%; /* shelf */
   background-repeat: no-repeat;
-  -webkit-box-shadow: 0 2px 3px -3px #000;
-          box-shadow: 0 2px 3px -3px #000;
+  box-shadow: 0 2px 3px -3px #000;
   height: 135px;
   position: absolute;
     left: 58px;
@@ -161,8 +160,7 @@ body {
     linear-gradient(to right,transparent 44px,#274d7e 44px,#274d7e 46px,transparent 46px,transparent 60px,#274d7e 60px,#274d7e 62px,transparent 62px,transparent 108px,#274d7e 108px,#274d7e 110px,transparent 110px,transparent 124px,#274d7e 124px,#274d7e 126px,transparent 126px),
     linear-gradient(to bottom,transparent 30px,rgba(255,255,255,0.4) 30px,rgba(255,255,255,0.9) 75px,transparent 75px);
   border-bottom: 8px solid #2b568d;
-  -webkit-box-shadow: 0 12px 0 #21416a, 0 18px 8px -3px rgba(0,0,0,0.3);
-          box-shadow: 0 12px 0 #21416a, 0 18px 8px -3px rgba(0,0,0,0.3);
+  box-shadow: 0 12px 0 #21416a, 0 18px 8px -3px rgba(0,0,0,0.3);
   display: block;
   height: 250px;
   margin-left: -85px;
@@ -177,8 +175,7 @@ body {
 
 .tardis::before {
   background: #333;
-  -webkit-box-shadow: 0 0 0 4px #295185, 0 4px 4px 4px rgba(0,0,0,0.3), 0 -15px 0 #274d7e, 0 -27px 0 -6px #295185, 0 -32px 0 -6px #295185;
-          box-shadow: 0 0 0 4px #295185, 0 4px 4px 4px rgba(0,0,0,0.3), 0 -15px 0 #274d7e, 0 -27px 0 -6px #295185, 0 -32px 0 -6px #295185;
+  box-shadow: 0 0 0 4px #295185, 0 4px 4px 4px rgba(0,0,0,0.3), 0 -15px 0 #274d7e, 0 -27px 0 -6px #295185, 0 -32px 0 -6px #295185;
   color: rgba(255,255,255,0.8);
   content: 'POLICE BOX';
   font-family: Verdana, Helvetica, sans-serif;
@@ -202,8 +199,7 @@ body {
     linear-gradient(to bottom,transparent 5px,#31619f 5px,#31619f 6px,transparent 6px,transparent 13px,#31619f 13px,#31619f 14px,transparent 14px);
   border-bottom: 3px solid #31619f;
   border-top: 5px solid #31619f;
-  -webkit-box-shadow: 0 -2px 10px -1px rgba(255,255,255,0.5), -39px 155px 0 rgba(255,255,255,0.6), -24px 155px 0 rgba(255,255,255,0.6);
-          box-shadow: 0 -2px 10px -1px rgba(255,255,255,0.5), -39px 155px 0 rgba(255,255,255,0.6), -24px 155px 0 rgba(255,255,255,0.6);
+  box-shadow: 0 -2px 10px -1px rgba(255,255,255,0.5), -39px 155px 0 rgba(255,255,255,0.6), -24px 155px 0 rgba(255,255,255,0.6);
   content: "";
   height: 20px;
   left: 50%;
@@ -222,15 +218,9 @@ body {
     linear-gradient(0deg, transparent 22px, #e7e7e7 22px),
     linear-gradient(-90deg, transparent 22px, #e7e7e7 22px),
     linear-gradient(-45deg, transparent 15px, #ccc 15px);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   height: 115px;
   position: absolute;
     top: 30px;
@@ -273,10 +263,6 @@ body {
 
 .word-doc {
   background-color: #e7e7e7;
-  background-image: 
-    repeating-linear-gradient(0deg, #ccc, #ccc 4px, transparent 4px, transparent 11px),
-    -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #e7e7e7)),
-    repeating-linear-gradient(0deg, #ccc, #ccc 4px, transparent 4px, transparent 11px);
   background-image: 
     repeating-linear-gradient(0deg, #ccc, #ccc 4px, transparent 4px, transparent 11px),
     linear-gradient(90deg, transparent 50%, #e7e7e7 50%),
@@ -336,7 +322,6 @@ body {
   border-bottom: 8px solid #008892;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   content: "";
   height: 0;
@@ -352,7 +337,6 @@ body {
   border-bottom: 4px solid transparent;
   border-left: 8px solid #008892;
   border-top: 4px solid transparent;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   content: "";
   height: 0;
@@ -368,7 +352,6 @@ body {
   border-top: 3px solid #eb4217;
   border-right: 4px solid #eb4217;
   border-top-right-radius: 100%;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
   height: 22px;
@@ -384,7 +367,6 @@ body {
   border-bottom: 3px solid #eb4217;
   border-left: 5px solid #eb4217;
   border-bottom-left-radius: 50%;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   content: "";
   display: block;
@@ -401,7 +383,6 @@ body {
   border-top: 4px solid #eb4217;
   border-left: 4px solid #eb4217;
   border-top-left-radius: 100%;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   content: "";
   display: block;
@@ -470,17 +451,10 @@ body {
   border-bottom: 0;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: flex-start;
+    justify-content: center;
   height: 95px;
   position: absolute;
     bottom: 100%;
@@ -594,9 +568,7 @@ body {
 .newtons-cradle__ball {
   -webkit-animation: 1.5s jiggleTheCradle infinite linear;
           animation: 1.5s jiggleTheCradle infinite linear;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0FCB90), color-stop(#42fec3), to(#0FCB90));
   background-image: linear-gradient(90deg, #0FCB90, #42fec3, #0FCB90);
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: calc(80% - 12px);
   margin: 0 4px;
@@ -779,7 +751,6 @@ body {
   border: 15px solid #814c1a;
   border-bottom: 0;
   border-radius: 30px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   content: "";
   display: block;
@@ -813,8 +784,7 @@ body {
 
 .brief-case__paper {
   background-color: #fdfef0;
-  -webkit-box-shadow: 9px 8px 0 -4px #ccc;
-          box-shadow: 9px 8px 0 -4px #ccc;
+  box-shadow: 9px 8px 0 -4px #ccc;
   height: 55px;
   position: absolute;
     right: -15px;
@@ -831,7 +801,6 @@ body {
   background-color: #4a4a4a;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #fcfee9;
   font-family: eraserdust;
@@ -862,8 +831,7 @@ body {
 .black-board::after {
   background-color: #bb7134;
   border-radius: 4px;
-  -webkit-box-shadow: 0 2px 2px -2px #000;
-          box-shadow: 0 2px 2px -2px #000;
+  box-shadow: 0 2px 2px -2px #000;
   content: "";
   height: 30px;
   position: absolute;
@@ -896,7 +864,6 @@ body {
     linear-gradient(to right bottom, #4a4a4a 50%, #ffc602 50%, #ffc602 59%, transparent 59%),
     linear-gradient(0deg, #ffc602 10px, transparent 10px),
     linear-gradient(-90deg, #ffc602 10px, transparent 10px);
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
   height: 75px;
@@ -907,9 +874,6 @@ body {
 }
 
 .triangle-square::before {
-  background-image: 
-    repeating-linear-gradient(90deg, #ffc602 0, #ffc602 3px, #4a4a4a 3px, #4a4a4a 4px, #ffc602 4px, #ffc602 7px, transparent 7px, transparent 8px),
-    -webkit-gradient(linear, left bottom, left top, color-stop(50%, #4a4a4a), color-stop(50%, transparent));
   background-image: 
     repeating-linear-gradient(90deg, #ffc602 0, #ffc602 3px, #4a4a4a 3px, #4a4a4a 4px, #ffc602 4px, #ffc602 7px, transparent 7px, transparent 8px),
     linear-gradient(0deg, #4a4a4a 50%, transparent 50%); 
@@ -925,9 +889,6 @@ body {
 
 /* Start Mouse hole */
 .mouse-hole {
-  background-image: 
-    radial-gradient(circle, #000 50%, transparent 50%), 
-    -webkit-gradient(linear, left bottom, left top, from(#000), to(#000));
   background-image: 
     radial-gradient(circle, #000 50%, transparent 50%), 
     linear-gradient(0deg, #000, #000);
@@ -954,10 +915,6 @@ body {
 
 .mouse-hole__arrow {
   background-image: 
-    -webkit-gradient(linear, left bottom, right top, color-stop(50%, transparent), color-stop(50%, #eca900), color-stop(80%, #eca900), color-stop(80%, transparent)),
-    -webkit-gradient(linear, left top, right bottom, color-stop(50%, transparent), color-stop(50%, #eca900), color-stop(80%, #eca900), color-stop(80%, transparent)),
-    -webkit-gradient(linear, left bottom, left top, from(#eca900), to(#eca900));
-  background-image: 
     linear-gradient(to right top, transparent 50%, #eca900 50%, #eca900 80%, transparent 80%),
     linear-gradient(to right bottom, transparent 50%, #eca900 50%, #eca900 80%, transparent 80%),
     linear-gradient(0deg, #eca900, #eca900);
@@ -978,10 +935,6 @@ body {
 }
 
 .mouse-hole__input:checked ~ .mouse-hole__arrow {
-  background-image: 
-    -webkit-gradient(linear, right bottom, left top, color-stop(50%, transparent), color-stop(50%, #eca900), color-stop(70%, #eca900), color-stop(70%, transparent)),
-    -webkit-gradient(linear, right top, left bottom, color-stop(50%, transparent), color-stop(50%, #eca900), color-stop(70%, #eca900), color-stop(70%, transparent)),
-    -webkit-gradient(linear, left bottom, left top, from(#eca900), to(#eca900));
   background-image: 
     linear-gradient(to left top, transparent 50%, #eca900 50%, #eca900 70%, transparent 70%),
     linear-gradient(to left bottom, transparent 50%, #eca900 50%, #eca900 70%, transparent 70%),
@@ -1142,7 +1095,6 @@ body {
   position: absolute;
     bottom: 0;
     right: 0;
-  -webkit-transition: height 500ms ease, right 500ms ease, background 500ms ease, opacity 500ms ease;
   transition: height 500ms ease, right 500ms ease, background 500ms ease, opacity 500ms ease;
   width: 40px;
   z-index: 1;
