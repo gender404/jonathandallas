@@ -6,7 +6,7 @@
   "private": true,
   "devDependencies": {
     "browser-sync": "^2.29.3",
-    "gulp": "^3.9.1"
+    "gulp": "^5.0.1"
   },
   "dependencies": {}
 }
