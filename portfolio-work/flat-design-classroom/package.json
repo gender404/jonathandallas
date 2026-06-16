@@ -5,7 +5,7 @@
   "description": "",
   "private": true,
   "devDependencies": {
-    "browser-sync": "^2.29.3",
+    "browser-sync": "^3.0.4",
     "gulp": "^3.9.1"
   },
   "dependencies": {}
